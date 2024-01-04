@@ -6,9 +6,9 @@ const page = () => {
    const router = usePathname();
   
   return (
-    <div>
-        <h1>This is the contact page ! </h1>
-        <p>The id is : {router}</p>
+    <div className='flex justify-center h-[100vh] text-[rgb(24, 36, 58)]' style={{alignItems:'center'}}>
+        <h1 className='text-3xl'>This is the contact page ! </h1>
+        <p className='text-3xl'>The id is : {router}</p>
     </div>
 
   )
