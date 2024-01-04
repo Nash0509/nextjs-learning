@@ -4,8 +4,8 @@ import Link from 'next/link'
 const Navbar = () => {
   return (
     <div className='flex p-3 bg-[]'>
-      <div className='ml-5'><Link href='/'><p>Ledgeric</p></Link></div>
-      <div className='ml-[20vw]'>
+      <div className='ml-5'><Link href='/'><p className='italic text-3xl'>Ledgeric</p></Link></div>
+      <div className='sm:ml-[20vw] md:ml-[30vw] lg:ml-[40vw] xl:ml-[50vw] 2xl:ml-[60vw]'>
         <ul className='flex'>
          <Link href='/'> <li className='mx-2'>Home</li></Link>
          <Link href='contact'><li className='mx-2'>Contact</li></Link>
